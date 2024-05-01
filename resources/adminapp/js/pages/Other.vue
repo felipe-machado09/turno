@@ -1,0 +1,28 @@
+<template>
+  <div class="container-fluid">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="card">
+            <div class="card-header card-header-success card-header-icon">
+              <div class="card-icon">
+                <i class="material-icons">language</i>
+              </div>
+            </div>
+            <div class="card-body">
+              {{ $t('pages.other.hello') }}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</template>
+
+<script>
+export default {
+  data() {
+    return {}
+  }
+}
+</script>
